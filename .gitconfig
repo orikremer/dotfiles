@@ -1,0 +1,32 @@
+[user]
+	name = Ori Kremer
+	email = ori.kremer@gmail.com
+[color]
+  ui = auto
+[credential]
+	helper = osxkeychain
+[push]
+	default = nothing
+[core]
+	autocrlf = input
+	safecrlf = false
+	editor = vim
+	excludesfile = /Users/ori.kremer/.gitignore_global
+	savecrlf = false
+[merge]
+	tool = vimdiff
+[alias]
+  st = status
+  br = branch
+  co = checkout
+  ci = commit
+  di = diff
+  dc = diff --cached
+  aa = add --all
+  amend = commit --amend
+  ff = merge --ff-only
+  pullff = pull --ff-only
+  fa = fetch --all
+
+[init]
+	templatedir = ~/.git_template
